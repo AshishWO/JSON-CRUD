@@ -9,7 +9,7 @@ import {
 
 const libraryRoute: Router = express.Router();
 
-//Routes
+//Routes : api:- http://localhost:PORT/library/
 libraryRoute.get("/", getAllBooks);
 libraryRoute.post("/", addBook);
 libraryRoute.get("/:id", getBook);
